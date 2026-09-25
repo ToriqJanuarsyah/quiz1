@@ -12,7 +12,7 @@ package id.ac.polinema.oop;
 public class Main {
 
     public static void main(String[] args) {
-      Menu menu = new Menu();
+    Menu menu = new Menu();
     menu.addMenuItem(new MenuItem("Es Kopi Susu", 18000));
     menu.addMenuItem(new MenuItem("Roti Bakar", 12000));
 
@@ -29,5 +29,5 @@ public class Main {
     System.out.println("Payable  : " + order.getFinalTotal());
     System.out.println("Cash     : " + cash);
     System.out.println("Change   : " + cashier.calculateChange(order, cash));
-    }
+}
 }
